@@ -1,9 +1,38 @@
 /* Your code here */
-
-
+.wgs{
+  display: inline-block;
+  overflow: hidden;
+  height: 482px;
+  width: 320px;
+  position:relative
+}
+.wgs__mole-head{
+  height: 356px;
+  width: 188px;
+  position:absolute;
+  left:54px;
+  right: 77px;
+  transition-property: margin-top;
+  transition-duration: 0.25s;
+  
+}
+.wgs__dirt{
+  height: 220px;
+  width: 320px;
+  position:absolute;
+  top: 262px; 
+}
+.wgs__mole-head--hidden{
+  margin-top: 320px;
+  
+}
+.pf{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
-/* .sb {
+.sb {
   background-color: cornflowerblue;
   border-bottom: 1px solid #645DED;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
@@ -12,17 +41,17 @@
   font-size: 30px;
   margin-bottom: 50px;
   padding: 10px 20px;
-} */
+}
 
-/* .sb__mole-counter {
+.sb__mole-counter {
   flex: 1 0 0;
   text-align: right;
-} */
+} 
 
-/* .sb__score-holder {
+.sb__score-holder {
   flex: 1 0 0;
-} */
+}
 
-/* .sb__game-over--hidden {
+.sb__game-over--hidden { 
   display: none;
-} */
+}
